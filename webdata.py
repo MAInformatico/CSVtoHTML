@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#It's a source code to obtain the source code of a webpages that it's executed on the client.
+
 import urllib2
 
 response=urllib2.urlopen('http://www.unapaginacualquiera.com') #poner aquí el nombre de la página que nos interesa
